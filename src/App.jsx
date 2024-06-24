@@ -7,18 +7,17 @@ function App(){
 
   return (
     <div>
-      {/* <BrowserRouter> */}
+      <BrowserRouter>
         <Routes>  
           <Route  path='/'  element={<Home/>}></Route>
-        </Routes>
-        <Routes>
           <Route path='/login' element={<LoginPage/>}></Route>
         </Routes>
-      {/* </BrowserRouter> */}
-
+      </BrowserRouter>
     </div>
   )
 
 }
 
 export default App
+
+
